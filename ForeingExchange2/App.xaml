@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+<Application 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:infra="clr-namespace:ForeingExchange2.Infraestructure"
              x:Class="ForeingExchange2.App">
     <Application.Resources>
+
+    <!--  Application Resource Dictionary -->
+
+    <ResourceDictionary>
+
+
+    <!-- Locator-->
+
+            <infra:InstanceLocator x:Key="Locator"/>
+                
+            
+            
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>
